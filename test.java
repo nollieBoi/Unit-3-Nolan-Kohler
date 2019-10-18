@@ -1,6 +1,7 @@
 public class test{
   public static void main(String[] args){
-    for(int i = 3; i > 5; i = i++)
-      System.out.print(i * 2 + " ");
+    for(int val = 200; val >= 0; val -= 1)
+      if(val % 4 != 0)
+        System.out.println(val);
   }
 }
